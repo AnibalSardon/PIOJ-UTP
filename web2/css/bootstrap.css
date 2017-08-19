@@ -3817,6 +3817,7 @@ tbody.collapse.in {
   position: relative;
   display: table;
   border-collapse: separate;
+  line-height: 40px;
 }
 .input-group[class*="col-"] {
   float: none;
