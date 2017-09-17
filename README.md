@@ -17,4 +17,6 @@ tab: Manual-> al 70%, sujeto a sugerencias de estructura e interface para termin
 Demás interfaces:
 Luego de aprobada la interface de comisaria, se implementara los demás módulas ya que sus estructuras son muy parecidas
 
-PD: comentar, sugerir.
+PD: 
+1.Bugs en las ventanas modales al abrir las imagenes, corregidos para la siguiente versión.
+2.comentar, sugerir.
