@@ -2,6 +2,7 @@
 MANUAL WEB SIOJ
 
 Tercer avance: 
+
 Interface login : simple login validador con ajax sin bd(solo para muestra) 
 
 Solo esta desarrollado el módulo de Comisaria probar, sugerir, sobre el login y su interface en este dominio de prueba: www.artecolonial.tk
