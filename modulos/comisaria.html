@@ -1,499 +1,506 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../imagenes/sioj2.png">
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/main.css" rel="stylesheet">
+        <title>SIOJ - Comisaria</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../imagenes/sioj2.png">
-    <link href="../css/bootstrap.css" rel="stylesheet"> 
-     
-    <link href="../css/main.css" rel="stylesheet"> 
-    
-    <title>SIOJ - Comisaria</title>
+    <body>
+        <!--INICIO: CABECERA-->
+        <div class="container">
+            <div class="row">
+                <div class="container example2">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href=""><img src="../imagenes/sioj.png" alt="sioj">
+                                </a>
+                            </div>
+                            <div id="navbar2" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><img src="../imagenes/logos/PNP.jpg" alt="" height="64px"></li>
+                                    <li class="active"><h3>Sistema de Interoperabilidad de los Operadores de Justicia</h3></li>
 
-</head>
 
-<body>
-
-<div class="container">
-       <div class="row">
-           <div class="container example2">
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href=""><img src="../imagenes/sioj.png" alt="sioj">
-        </a>
-      </div>
-      <div id="navbar2" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><img src="../imagenes/logos/PNP.jpg" alt="" height="64px"></li>
-          <li class="active"><h3>Sistema de Interoperabilidad de los Operadores de Justicia</h3></li>
-          
-          
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-    <!--/.container-fluid -->
-  </nav>
-</div>
-       </div>
-   </div>
-<br>
-<div class="container fluid">
-	
-	<!--<h1 class="text-center">Comisaria</h1>-->
-
-	<div class="tabby">
-		<div class="tabby-tab">
-		<input type="radio" id="tab-1" name="tabby-tabs" checked>
-		<label for="tab-1">Introducción</label>
-		<div class="tabby-content">
-		<div class="container col-md-12">
- <div class="row">
-  <div class="process">
-   <div class="process-row nav nav-tabs">
-    <div class="process-step">
-     <button type="button" class="btn btn-info btn-circle" data-toggle="tab" href="#menu1"><i class="glyphicon glyphicon-info-sign icon-size"></i></button>
-     <p><small>Introducción<br /></small></p>
-    </div>
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu2"><i class="glyphicon glyphicon-thumbs-up icon-size"></i></button>
-     <p><small>Objetivos<br /></small></p>
-    </div>
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu3"><i class="glyphicon glyphicon-option-horizontal icon-size"></i></button>
-     <p><small>Descripción<br />de módulo</small></p>
-    </div>
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu4"><i class="glyphicon glyphicon-user icon-size"></i></button>
-     <p><small>Descripción<br />de Perfiles</small></p>
-    </div>
-    
-   </div>
-  </div>
-  <div class="tab-content">
-   <div id="menu1" class="tab-pane fade active in">
-    
-	<div class="row equal-panels">		
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">INTRODUCCIÓN</h3>
-        	</div>
-            <div class="panel-body">
-                <p class="text-justify">
-                Este documento contiene información necesaria para el correcto uso del Sistema de Interoperabilidad de los Operadores de Justica (SIOJ) - Modulo de Comisaria, por parte del usuario, siendo este documento un manual de usuario final.
-                </p>
-            </div>                
-    	</div>                
-	</div>
-
-    <ul class="list-unstyled list-inline center">
-     <li><button type="button" class="btn btn-info next-step">Siguiente <i class="fa fa-chevron-right"></i></button></li>
-    </ul>
-   </div>
-   <div id="menu2" class="tab-pane fade">
-    <div class="row  equal-panels">		
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">OBJETIVOS</h3>
-        	</div>
-            <div class="panel-body">
-                <p class="text-justify">
-                El objetivo del presente documento es de ser una guía al usuario para mostrar la forma correcta del uso del aplicativo.
-                </p>
-            </div>                
-    	</div>                
-	</div>
-    <ul class="list-unstyled list-inline center">
-     <li><button type="button" class="btn btn-default prev-step"><i class="fa fa-chevron-left"></i> Atras</button></li>
-     <li><button type="button" class="btn btn-info next-step">Siguiente <i class="fa fa-chevron-right"></i></button></li>
-    </ul>
-   </div>
-   <div id="menu3" class="tab-pane fade">
-    <div class="row  equal-panels">		
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">Descripción del módulo u opción</h3>
-        	</div>
-            <div class="panel-body">                
-                <div class="container-fluid">
-                <h3 class="text-center">MÓDULO / OPCIÓN</h3>
-    	<div class="row">
-		    <div class="col-md-3">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">Login</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">Permite el acceso al sistema a los usuarios autorizados.</p>
-				</div>
-				</div>
+                                </ul>
+                            </div>
+                            <!--/.nav-collapse -->
+                        </div>
+                        <!--/.container-fluid -->
+                    </nav>
+                </div>
             </div>
-            <div class="col-md-3">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">Seguridad / Cambio de clave</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">Desde esta opción se podrá cambiar la clave de usuario.</p>
-				</div>
-				</div>
+
+        </div>
+        <!--FIN: CABECERA-->
+        <br>
+        <!--INICIO: CONTENIDO PRINCIPAL-->
+        <div class="container-fluid" >           
+            <!--INICIO: PESTAÑAS(Introducción-Manual-Glosario-Preguntas frecuentes)-->
+            <div class="tabby" >
+                <!--INICIO: PESTAÑA (Introducción)-->
+                <div class="tabby-tab">
+                    <input type="radio" id="tab-1" name="tabby-tabs" checked>
+                    <label for="tab-1">Introducción</label>
+                    <!--INICIO: CONTENIDO PESTAÑA (Introducción)-->
+                    <div class="tabby-content">
+                        <div class="container col-md-12 tabs-responsive">
+                            <div class="row">
+                                <div class="process">
+                                    <div class="process-row nav nav-tabs">
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-info btn-circle" data-toggle="tab" href="#menu1"><i class="glyphicon glyphicon-info-sign icon-size"></i></button>
+                                            <p><small>Introducción<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu2"><i class="glyphicon glyphicon-thumbs-up icon-size"></i></button>
+                                            <p><small>Objetivos<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu3"><i class="glyphicon glyphicon-option-horizontal icon-size"></i></button>
+                                            <p><small>Descripción<br />de módulo</small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu4"><i class="glyphicon glyphicon-user icon-size"></i></button>
+                                            <p><small>Descripción<br />de Perfiles</small></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="menu1" class="tab-pane fade active in">
+
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">INTRODUCCIÓN</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify">
+                                                        Este documento contiene información necesaria para el correcto uso del Sistema de Interoperabilidad de los Operadores de Justica (SIOJ) - Modulo de Comisaria, por parte del usuario, siendo este documento un manual de usuario final.
+                                                    </p>
+                                                </div>                
+                                            </div>                
+                                        </div>
+
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-info next-step">Siguiente <i class="fa fa-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>
+                                    <div id="menu2" class="tab-pane fade">
+                                        <div class="row  equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">OBJETIVOS</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify">
+                                                        El objetivo del presente documento es de ser una guía al usuario para mostrar la forma correcta del uso del aplicativo.
+                                                    </p>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-step"><i class="fa fa-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-step">Siguiente <i class="fa fa-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>
+                                    <div id="menu3" class="tab-pane fade">
+                                        <div class="row  equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Descripción del módulo u opción</h3>
+                                                </div>
+                                                <div class="panel-body">                
+                                                    <div class="container-fluid">
+                                                        <h3 class="text-center">MÓDULO / OPCIÓN</h3>
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Login</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Permite el acceso al sistema a los usuarios autorizados.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Seguridad / Cambio de clave</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Desde esta opción se podrá cambiar la clave de usuario.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Gestión de bandeja</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">El modulo permite gestionar las casillas, desde su aprobación, modificación y desactivación de las casillas.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Registro de denuncia</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">El modulo permite registrar y gestionar el proceso de denuncia, desde registrar una denuncia verbal hasta.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-step"><i class="fa fa-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-step">Siguiente <i class="fa fa-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>   
+                                    <div id="menu4" class="tab-pane fade">
+                                        <div class="row  equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Descripción de perfiles</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="container-fluid">
+                                                        <h3 class="text-center">PERFILES</h3>
+                                                        <div class="row">
+                                                            <div class="col-md-3"></div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Instructor</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Tiene acceso a las opciones de registrar y buscar denuncia.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Comisario</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Tiene acceso a las opciones de documentos de la denuncia y gestionar la bandeja.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>        
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-step"><i class="fa fa-chevron-left"></i> Atras</button></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>	
+                    </div>
+                    <!--FIN: CONTENIDO PESTAÑA (Introducción)-->
+                </div>
+                <!--FIN: PESTAÑA (Introducción)-->
+                <!--INICIO: PESTAÑA (manual)-->
+                <div class="tabby-tab">
+                    <input type="radio" id="tab-2" name="tabby-tabs">
+                    <label for="tab-2">Manual</label>
+                    <!--INICIO: CONTENIDO PESTAÑA (Manual)-->
+                    <div class="tabby-content">
+                        <div class="container col-md-12 tabs-responsive">
+                            <div class="row">
+                                <div class="process">
+                                    <div class="process-row nav nav-tabs">
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-info btn-circle" data-toggle="tab" href="#menu6"><i class="glyphicon glyphicon-registration-mark icon-size"></i></button>
+                                            <p><small>Registro de<br />Denuncia</small></p>
+                                        </div>    
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu7"><i class="glyphicon glyphicon-file icon-size"></i></button>
+                                            <p><small>Documentos<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu8"><i class="glyphicon glyphicon-lock icon-size"></i></button>
+                                            <p><small>Seguridad<br /></small></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="menu6" class="tab-pane fade active in">
+
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Registro de Denuncia</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>En este apartado el INSTRUCTOR, podrá registrar, buscar y generar la denuncia verbal y todos los documentos pertenecientes a la misma.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image001.png">   
+                                                    </div>
+                                                    <p>Podrá escoger entre, registrar una NUEVA denuncia.
+                                                        Y BUSCAR una denuncia, donde podrá buscar por PERIODO, ESTADOS, NUC y/o NOMBRES de las partes.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image002.png">    
+                                                    </div>
+                                                    <p>Adicionalmente podrá visualizar el documento de la DENUNCIA y la TRAZABILIDAD, es decir el donde se encuentra actualmente la DENUNCIA.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image003.png">   
+                                                    </div>
+                                                    <p>Para visualizar la denuncia debe generar la CARPETA POLICIAL, al terminar de registrar la DENUNCIA.
+                                                        Para visualizar la TRAZABILIDAD haga clic en el icono   en la columna TRAZABILIDAD.
+                                                        La TRAZABILIDAD se visualizara.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image005.png">    
+                                                    </div>
+                                                    <p>Adicionalmente podrá visualizar el documento de la DENUNCIA y la TRAZABILIDAD, es decir el donde se encuentra actualmente la DENUNCIA.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image006.png">    
+                                                    </div>
+
+
+                                                    <div class="clearfix"></div>
+
+                                                    <!-- The Modal -->                                             
+                                                </div>                
+                                            </div>                
+                                        </div>
+
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-info next-step">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>   
+                                    <div id="menu7" class="tab-pane fade">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Documentos</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>Seleccione DOCUMENTOS Se visualizará la pantalla de DOCUMENTOS, donde podrá registrar los documentos faltantes, y firmar electrónicamente.
+                                                        Para acceder a esta sección debe generar NUC, es decir guardar los cambios.
+                                                    </p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image037.png">   
+                                                    </div>
+                                                    <p>4.2.1.	Informe Policial
+                                                        En esta sección el COMISARIO, podrá redactar el informe policial, donde registra:
+                                                        -	Antecedentes que motivan la intervención policial.
+                                                        -	Investigaciones realizadas.
+                                                        -	Análisis de los hechos.
+                                                        -	Situación de las partes implicadas.
+                                                        -	Anexos.
+                                                        Seleccione el ICONO  en la columna LLENAR FORMULARIO.
+                                                    </p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image039.png">    
+                                                    </div>
+                                                    <p>El sistema muestra el formulario de INFORME POLICIAL.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image040.png">   
+                                                    </div>
+                                                    <p>Para visualizar el documento haga clic en el icono de PDF  en la columna.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image041.png">    
+                                                    </div>
+                                                    <p>El documento se visualizara, proceda a descárgalo y fírmalo con el software REFIRMA.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image043.png">    
+                                                    </div>
+
+
+                                                    <div class="clearfix"></div>
+
+                                                    <!-- The Modal -->
+
+
+
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-step"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-step">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>   
+                                    <div id="menu8" class="tab-pane fade">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Seguridad</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h3 class="text-center">Cambio de Clave</h3>
+                                                    <p>Esta opción permite cambiar la clave de cualquier usuario del sistema. 
+                                                        Para acceder seleccione el icono  , CAMBIO DE PASSWORD, se visualizara la ventana         de CAMBIO DE CLAVE.
+                                                    </p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image079.png">   
+                                                    </div>
+                                                    <p>Una vez ingresado los datos y aceptar los cambios el sistema mostrara un mensaje de confirmación.
+                                                    </p>        
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image080.png">    
+                                                    </div>
+
+
+                                                    <div class="clearfix"></div>
+
+                                                    <!-- The Modal -->
+
+
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-step"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>	
+                    </div>
+                    <!--FIN: CONTENIDO PESTAÑA (Manual)-->
+                </div>
+                <!--FIN: PESTAÑA (manual)-->
+                <!--INICIO: PESTAÑA (Glosario)-->
+                <div class="tabby-tab">
+                    <input type="radio" id="tab-3" name="tabby-tabs">
+                    <label for="tab-3">Glosario</label>
+                    <!--INICIO: CONTENIDO PESTAÑA (Glosario)-->
+                    <div class="tabby-content">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="text-center">Glosario</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="container-fluid">
+                                    <h3 class="text-center">TÉRMINOS</h3>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-4">
+                                            <div class="panel panel-color-tables">
+                                                <div class="panel-heading">
+                                                    <h4 class="text-center">URL</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify p-normal">Uniform Resource Locator. El URL es la cadena de caracteres con la cual se asigna una dirección única a cada uno de los recursos de información disponibles en el internet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="panel panel-color-tables">
+                                                <div class="panel-heading">
+                                                    <h4 class="text-center">Hipervínculo</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify p-normal">Objeto en una pantalla que actúa como enlace hacia otra pantalla.</p>
+                                                </div>
+                                            </div>
+                                        </div>        
+
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>             	  
+
+                    </div>
+                    <!--FIN: CONTENIDO PESTAÑA (Glosario)-->
+                </div>
+                <!--FIN: PESTAÑA (Glosario)-->
+                <!--INICIO: PESTAÑA (Preguntas frecuentes)-->
+                <div class="tabby-tab">
+                    <input type="radio" id="tab-4" name="tabby-tabs">
+                    <label for="tab-4">Preguntas Frecuentes</label>
+                    <!--INICIO: CONTENIDO PESTAÑA (Preguntas frecuentes)-->
+                    <div class="tabby-content">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="text-center">Preguntas Frecuentes</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="container-fluid">
+                                    <h3 class="text-center">PREGUNTAS</h3>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-4">
+                                            <div class="panel panel-color-tables">
+                                                <div class="panel-heading">
+                                                    <h4 class="text-center">¿En qué formatos puede exportar el reporte?</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify p-normal">El formato de visualización de constancias es PDF. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="panel panel-color-tables">
+                                                <div class="panel-heading">
+                                                    <h4 class="text-center">¿Puede utilizar cualquier navegador web para acceder al aplicativo?</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify p-normal">Si puede utilizar cualquier navegador, sin embargo puede darse el caso en que la presentación de la página no se vea correctamente, es por ello que se recomienda el uso de Internet Explorer 8 o superior y/o Google Chrome y/o Mozilla Firefox. </p>
+                                                </div>
+                                            </div>
+                                        </div>        
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>             
+                    </div>
+                    <!--FIN: CONTENIDO PESTAÑA (Preguntas frecuentes)-->
+                </div>
+                <!--FIN: PESTAÑA (Preguntas frecuentes)-->
             </div>
-            <div class="col-md-3">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">Gestión de bandeja</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">El modulo permite gestionar las casillas, desde su aprobación, modificación y desactivación de las casillas.</p>
-				</div>
-				</div>
+            <!--FIN: PESTAÑAS(Introducción-Manual-Glosario-Preguntas frecuentes)-->
+        </div>
+        <!--FIN: CONTENIDO PRINCIPAL-->
+
+        <!--INICIO: VENTANA MODAL DE IMAGENES-->
+        <div class="modal fade" id="ordine" role="dialog">
+            <div id="myModal" class="modalx">
+                <span class="close" data-dismiss="modal">Cerrar <i class="glyphicon glyphicon-remove-sign"></i></span>            
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
             </div>
-            <div class="col-md-3">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">Registro de denuncia</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">El modulo permite registrar y gestionar el proceso de denuncia, desde registrar una denuncia verbal hasta.</p>
-				</div>
-				</div>
-            </div>
-				
-				
-		</div>
-</div>
-                
-            </div>                
-    	</div>                
-	</div>
-    <ul class="list-unstyled list-inline center">
-     <li><button type="button" class="btn btn-default prev-step"><i class="fa fa-chevron-left"></i> Atras</button></li>
-     <li><button type="button" class="btn btn-info next-step">Siguiente <i class="fa fa-chevron-right"></i></button></li>
-    </ul>
-   </div>   
-   <div id="menu4" class="tab-pane fade">
-    <div class="row  equal-panels">		
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">Descripción de perfiles</h3>
-        	</div>
-            <div class="panel-body">
-            <div class="container-fluid">
-                <h3 class="text-center">PERFILES</h3>
-    	<div class="row">
-    	<div class="col-md-3"></div>
-		    <div class="col-md-3">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">Instructor</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">Tiene acceso a las opciones de registrar y buscar denuncia.</p>
-				</div>
-				</div>
-            </div>
-            <div class="col-md-3">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">Comisario</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">Tiene acceso a las opciones de documentos de la denuncia y gestionar la bandeja.</p>
-				</div>
-				</div>
-            </div>        
-	
-		
-				
-		</div>
-</div>
-            </div>                
-    	</div>                
-	</div>
-    <ul class="list-unstyled list-inline center">
-     <li><button type="button" class="btn btn-default prev-step"><i class="fa fa-chevron-left"></i> Atras</button></li>
-     
-    </ul>
-   </div>
-  </div>
- </div>
-</div>	
-			</div>
-		</div>
-
-		<div class="tabby-tab">
-			<input type="radio" id="tab-2" name="tabby-tabs">
-			<label for="tab-2">Manual</label>
-			<div class="tabby-content">
-		<div class="container col-md-12">
- <div class="row">
-  <div class="process">
-   <div class="process-row nav nav-tabs">
-    <div class="process-step">
-     <button type="button" class="btn btn-info btn-circle" data-toggle="tab" href="#menu6"><i class="glyphicon glyphicon-registration-mark icon-size"></i></button>
-     <p><small>Registro de<br />Denuncia</small></p>
-    </div>    
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu7"><i class="glyphicon glyphicon-file icon-size"></i></button>
-     <p><small>Documentos<br /></small></p>
-    </div>
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu8"><i class="glyphicon glyphicon-lock icon-size"></i></button>
-     <p><small>Seguridad<br /></small></p>
-    </div>
-    
-   </div>
-  </div>
-  <div class="tab-content">
-   <div id="menu6" class="tab-pane fade active in">
-    
-	<div class="row equal-panels">		
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">Registro de Denuncia</h3>
-        	</div>
-        <div class="panel-body">
-        <p>En este apartado el INSTRUCTOR, podrá registrar, buscar y generar la denuncia verbal y todos los documentos pertenecientes a la misma.</p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image001.png">   
         </div>
-        <p>Podrá escoger entre, registrar una NUEVA denuncia.
-        Y BUSCAR una denuncia, donde podrá buscar por PERIODO, ESTADOS, NUC y/o NOMBRES de las partes.</p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image002.png">    
-        </div>
-        <p>Adicionalmente podrá visualizar el documento de la DENUNCIA y la TRAZABILIDAD, es decir el donde se encuentra actualmente la DENUNCIA.</p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image003.png">   
-        </div>
-        <p>Para visualizar la denuncia debe generar la CARPETA POLICIAL, al terminar de registrar la DENUNCIA.
-        Para visualizar la TRAZABILIDAD haga clic en el icono   en la columna TRAZABILIDAD.
-        La TRAZABILIDAD se visualizara.</p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image005.png">    
-        </div>
-        <p>Adicionalmente podrá visualizar el documento de la DENUNCIA y la TRAZABILIDAD, es decir el donde se encuentra actualmente la DENUNCIA.</p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image006.png">    
-        </div>
+        <!--FIN: VENTANA MODAL DE IMAGENES-->
 
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.js"></script> 
+        <script src="../js/tabs.js"></script>
+        <script src="../js/img.js"></script>
+    </body>
 
-<div class="clearfix"></div>
-
-<!-- The Modal -->
-
-
-
-        </div>                
-    	</div>                
-	</div>
-
-    <ul class="list-unstyled list-inline center">
-     <li><button type="button" class="btn btn-info next-step">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
-    </ul>
-   </div>   
-   <div id="menu7" class="tab-pane fade">
-    <div class="row equal-panels">		
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">Documentos</h3>
-        	</div>
-        <div class="panel-body">
-        <p>Seleccione DOCUMENTOS Se visualizará la pantalla de DOCUMENTOS, donde podrá registrar los documentos faltantes, y firmar electrónicamente.
-        Para acceder a esta sección debe generar NUC, es decir guardar los cambios.
-        </p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image037.png">   
-        </div>
-        <p>4.2.1.	Informe Policial
-        En esta sección el COMISARIO, podrá redactar el informe policial, donde registra:
-        -	Antecedentes que motivan la intervención policial.
-        -	Investigaciones realizadas.
-        -	Análisis de los hechos.
-        -	Situación de las partes implicadas.
-        -	Anexos.
-        Seleccione el ICONO  en la columna LLENAR FORMULARIO.
-        </p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image039.png">    
-        </div>
-        <p>El sistema muestra el formulario de INFORME POLICIAL.</p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image040.png">   
-        </div>
-        <p>Para visualizar el documento haga clic en el icono de PDF  en la columna.</p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image041.png">    
-        </div>
-        <p>El documento se visualizara, proceda a descárgalo y fírmalo con el software REFIRMA.</p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image043.png">    
-        </div>
-
-
-<div class="clearfix"></div>
-
-<!-- The Modal -->
-
-
-
-        </div>                
-    	</div>                
-	</div>
-    <ul class="list-unstyled list-inline center">
-     <li><button type="button" class="btn btn-default prev-step"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
-     <li><button type="button" class="btn btn-info next-step">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
-    </ul>
-   </div>   
-   <div id="menu8" class="tab-pane fade">
-    <div class="row equal-panels">		
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">Seguridad</h3>
-        	</div>
-        <div class="panel-body">
-        <h3 class="text-center">Cambio de Clave</h3>
-        <p>Esta opción permite cambiar la clave de cualquier usuario del sistema. 
-        Para acceder seleccione el icono  , CAMBIO DE PASSWORD, se visualizara la ventana         de CAMBIO DE CLAVE.
-        </p>
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image079.png">   
-        </div>
-        <p>Una vez ingresado los datos y aceptar los cambios el sistema mostrara un mensaje de confirmación.
-        </p>        
-        <div class="img">
-        <img class="img-responsive" src="../imagenes/pnp/image080.png">    
-        </div>
-
-
-<div class="clearfix"></div>
-
-<!-- The Modal -->
-
-
-        </div>                
-    	</div>                
-	</div>
-    <ul class="list-unstyled list-inline center">
-     <li><button type="button" class="btn btn-default prev-step"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
-     
-    </ul>
-   </div>
-  </div>
- </div>
-</div>	
-			</div>
-		</div>
-
-		<div class="tabby-tab">
-			<input type="radio" id="tab-3" name="tabby-tabs">
-			<label for="tab-3">Glosario</label>
-			<div class="tabby-content">
-					        	
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">Glosario</h3>
-        	</div>
-            <div class="panel-body">
-                <div class="container-fluid">
-                <h3 class="text-center">TÉRMINOS</h3>
-    	<div class="row">
-    	<div class="col-md-2"></div>
-		    <div class="col-md-4">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">URL</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">Uniform Resource Locator. El URL es la cadena de caracteres con la cual se asigna una dirección única a cada uno de los recursos de información disponibles en el internet.</p>
-				</div>
-				</div>
-            </div>
-            <div class="col-md-4">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">Hipervínculo</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">Objeto en una pantalla que actúa como enlace hacia otra pantalla.</p>
-				</div>
-				</div>
-            </div>        
-	
-		</div>
-</div>
-            </div>                
-    	</div>             	  
-            
-			</div>
-		</div>
-
-		<div class="tabby-tab">
-			<input type="radio" id="tab-4" name="tabby-tabs">
-			<label for="tab-4">Preguntas Frecuentes</label>
-			<div class="tabby-content">
-					        	
-        <div class="panel panel-default">
-            <div class="panel-heading">
-            <h3 class="text-center">Preguntas Frecuentes</h3>
-        	</div>
-            <div class="panel-body">
-                <div class="container-fluid">
-                <h3 class="text-center">PREGUNTAS</h3>
-    	<div class="row">
-    	<div class="col-md-2"></div>
-		    <div class="col-md-4">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">¿En qué formatos puede exportar el reporte?</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">El formato de visualización de constancias es PDF. </p>
-				</div>
-				</div>
-            </div>
-            <div class="col-md-4">
-		        <div class="panel panel-color-tables">
-					<div class="panel-heading">
-						<h4 class="text-center">¿Puede utilizar cualquier navegador web para acceder al aplicativo?</h4>
-				    </div>
-				<div class="panel-body">
-					<p class="text-justify p-normal">Si puede utilizar cualquier navegador, sin embargo puede darse el caso en que la presentación de la página no se vea correctamente, es por ello que se recomienda el uso de Internet Explorer 8 o superior y/o Google Chrome y/o Mozilla Firefox. </p>
-				</div>
-				</div>
-            </div>        
-	
-		
-				
-		</div>
-</div>
-            </div>                
-    	</div>               
-	  
-            
-			</div>
-		</div>
-		
-	</div>
-   <div id="myModal" class="modalx">
-  <span class="close">×</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-   
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.js"></script> 
-    <script src="../js/tabs.js"></script>
-    <script src="../js/img.js"></script>
-</body>
-  
 </html>      
