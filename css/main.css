@@ -334,14 +334,14 @@ padding: 20px;
     border-radius: 15px;
     text-shadow: 0 0 2px white;
     border: 2px solid #aaa; 
-    
+
 
 }
 
 .tabby-tab label:hover {
     background: #C92C23;
     color: white;
-   
+
 }
 
 .tabby-content {
@@ -726,8 +726,8 @@ div.desc {
         font-size: 22px;
     }
     h4.titulo-header-login {
-    font-size: 18px; text-align: center;
-}
+        font-size: 18px; text-align: center;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -773,8 +773,8 @@ h4.titulo-header {
     color: black;
 }
 .navbar-default {
-  background-color: #eee;
-  border: 2px black solid;
+    background-color: #eee;
+    border: 2px black solid;
 }
 .navbar-toggle {
     z-index:3;
