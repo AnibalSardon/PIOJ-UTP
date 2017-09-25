@@ -1,3 +1,4 @@
+
 .form-signin
 {
     max-width: 330px;
@@ -321,7 +322,7 @@ padding: 20px;
 .tabby-tab label {
     display: block;
     box-sizing: border-box;	
-    height: 40px;	
+    height: 44px;	
     padding-top: 10px;
     text-align: center;	
     cursor: pointer;
@@ -332,12 +333,15 @@ padding: 20px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     text-shadow: 0 0 2px white;
+    border: 2px solid #aaa; 
+    
 
 }
 
 .tabby-tab label:hover {
     background: #C92C23;
     color: white;
+   
 }
 
 .tabby-content {
@@ -351,8 +355,8 @@ padding: 20px;
         opacity 0.8s ease,
         transform 0.8s ease;
     opacity: 0;
-    transform: scale(0.1);
-    transform-origin: top left;
+    transform: scale(0.5);
+    transform-origin: bottom center;
 
 }
 
@@ -365,7 +369,7 @@ padding: 20px;
 .tabby-tab [type=radio] { display: none; }
 [type=radio]:checked ~ label {
     background: #C92C23;
-    z-index: 2;
+    z-index: 1;
     color:white;
 }
 
@@ -384,7 +388,7 @@ padding: 20px;
 
 @media screen and (max-width: 480px) {
     .tabby { min-height: 580px; }
-    .tabby-tab label { font-size: 15px; margin-left: -12px;margin-right: -4px; width: 106px; height: 60px; }
+    .tabby-tab label { font-size: 15px; margin-left: -12px;margin-right: -4px; width: 98px; height: 70px; }
     .tabby-content { top: 60px; }
     .tabby-content img {
         float: none;
@@ -394,6 +398,12 @@ padding: 20px;
     div .tabs-responsive {
         margin-left: -15px; margin-right: -15px;
     }
+    .container,.container-fluid,.tab-content,.tabby {
+        margin: 0 auto;
+        width: 100%;    
+        padding-left: 0; padding-right: 0;
+    }
+
 }
 /* radio buttons tabs fin */
 
@@ -471,6 +481,13 @@ fieldset[disabled] .btn-default.focus {
     background-color: #C92C23;
     border-color: white;
 }
+
+.btn-infox {
+    color: #fff;
+    background-color: #C92C23;
+    border-color: white;
+}
+
 .btn-info:focus,
 .btn-info.focus {
     color: #fff;
@@ -499,7 +516,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-info.active.focus,
 .open > .dropdown-toggle.btn-info.focus {
     color: #fff;
-    background-color: red;
+    background-color: #C92C23;
     border-color: white;
 }
 .btn-info:active,
@@ -543,8 +560,10 @@ fieldset[disabled] .btn-info.focus {
 }
 /*panel-color-tabs*/
 .panel-color-tables {
-    border-color: #ebccd1;
+    border-color: black;
+
 }
+
 .panel-color-tables > .panel-heading {
     color: white;
     background-color: #C92C23;
@@ -559,6 +578,17 @@ fieldset[disabled] .btn-info.focus {
     background-color: #a94442;
     font-weight: 400;
 }
+.panel {
+    background: #eee;
+}
+.panel>.panel-heading {
+    background:#C92C23;
+}
+.panel>.panel-heading h3 {
+    color: white;
+    font-weight: 600;
+}
+
 .panel-color-tables > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: white;
     font-weight: 400;
@@ -566,6 +596,19 @@ fieldset[disabled] .btn-info.focus {
 
 .p-normal {
     font-weight: normal; 
+}
+
+.container-fluid>h3.text-center {
+
+    font-weight: 600;
+    margin-bottom: 32px;    
+    border: 1px #555 solid;
+    padding: 10px;
+    background: white;    
+
+}
+.bg-white {
+    background: white;
 }
 /*fin panel-color-tabs*/
 
@@ -602,14 +645,15 @@ div.desc {
     display: none; /* Hidden by default */
     position: absolute; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 60px; /* Location of the box */
     left: 0;
-    top: 0;
+    top: 0;     
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    height: auto; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
 }
 
 /* Modal Content (image) */
@@ -652,12 +696,12 @@ div.desc {
 /* The Close Button */
 .close {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 0px;
+    right: 0px;
     color: #fff;
     font-size: 32px;
     font-weight: 600;
-    transition: 0.3s;
+    transition: 0.5s;
     opacity: 1;
 }
 
@@ -677,6 +721,13 @@ div.desc {
     .modal-content {
         width: 100%;
     }
+    .navbar-default .navbar-brand {
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h4.titulo-header-login {
+    font-size: 18px; text-align: center;
+}
 }
 
 @media only screen and (max-width: 500px){
@@ -692,11 +743,47 @@ div.desc {
     clear: both;
 }
 
+.full-screem {
+    margin: 0 auto;
+    width: 100%;    
+    padding-left: 0; padding-right: 0;
 
+}
 /*fin img responsive modal*/
 
 .espaciado {
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 20px;
+}
+
+/* Footer */
+h4.titulo-header {
+
+    width: 100%;    
+    top: 24px;
+    text-align: center;
+    margin: auto;
+    font-weight: 800;
+    font-size: 32px;
+    text-shadow: 0 0 4px white;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default {
+  background-color: #eee;
+  border: 2px black solid;
+}
+.navbar-toggle {
+    z-index:3;
+}
+
+.alig {
+    margin-top: -26px;
+}
+
+h4.titulo-header-login {
+    font-size: 26px; text-align: right; margin-top: -10px; font-weight: 600; padding-right: 10px;
 }
