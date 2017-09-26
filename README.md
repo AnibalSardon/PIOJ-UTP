@@ -5,11 +5,13 @@ Cuarto avance:
 
 Interface login : simple login validador con ajax sin bd(solo para muestra) 
 
-Solo esta desarrollado el módulo de Comisaria probar, sugerir, sobre el login y su interface en este dominio de prueba: 
+Solo esta desarrollado el módulo de Comisaria : probar, sugerir, sobre el login y su interface en este dominio de prueba: 
 
 http://sioj.rf.gd/
 
-usuario: pnpusuario passw: pnpusuario
+usuario: pnpusuario 
+
+passw: pnpusuario
 
 Módulo (comisaria) Desarrollado a un 80%, simple interface con tabs (código documentado).
 
