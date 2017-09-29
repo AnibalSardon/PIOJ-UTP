@@ -1,22 +1,640 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../imagenes/sioj2.png">
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/main.css" rel="stylesheet">
+        <title>SIOJ - Fiscalía</title>       
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../imagenes/sioj2.png">
-    <link href="../css/bootstrap.css" rel="stylesheet">  
-    <link href="../css/main.css" rel="stylesheet">  
-    <title>SIOJ - Ministerio Público</title>
+    <body>
+        <!--INICIO: CABECERA-->
+        <div class="container ">
+            <nav class="navbar navbar-default" role="navigation">         
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <h4 class="navbar-brand titulo-header">Manual de Usuario</h4>          
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <img src="../imagenes/sioj.png" height="72px" alt="sioj">
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><img src="../imagenes/logos/MP.jpg" height="72px" alt="pnp"></li>                     
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <!--FIN: CABECERA-->
+        <br>
+        <!--INICIO: CONTENIDO PRINCIPAL-->
+        <div class="container-fluid" >           
+            <!--INICIO: PESTAÑAS(Introducción-Manual-Glosario-Preguntas frecuentes)-->
+            <div class="tabby" >
+                <!--INICIO: PESTAÑA (Introducción)-->
+                <div class="tabby-tab">
+                    <input type="radio" id="tab-1" name="tabby-tabs" checked>
+                    <label for="tab-1">Introducción</label>
+                    <!--INICIO: CONTENIDO PESTAÑA (Introducción)-->
+                    <div class="tabby-content">
+                        <div class="container col-md-12 tabs-responsive">
+                            <div class="row">
+                                <div class="process">
+                                    <div class="process-row nav nav-tabs">
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-info btn-circle" data-toggle="tab" href="#menu1"><i class="glyphicon glyphicon-info-sign icon-size"></i></button>
+                                            <p><small>Introducción<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu2"><i class="glyphicon glyphicon-thumbs-up icon-size"></i></button>
+                                            <p><small>Objetivos<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu3"><i class="glyphicon glyphicon-option-horizontal icon-size"></i></button>
+                                            <p><small>Descripción<br />de módulo</small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu4"><i class="glyphicon glyphicon-user icon-size"></i></button>
+                                            <p><small>Descripción<br />de Perfiles</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="menu1" class="tab-pane fade active in tab-introduccion">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">INTRODUCCIÓN</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify">
+                                                        Esta pagina web contiene información necesaria para el correcto uso del módulo de Fiscalía del Ministerio Público del Sistema de Interoperabilidad de Operadores de Justicia por parte del usuario.
+                                                    </p>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-info next-step">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>
+                                    <div id="menu2" class="tab-pane fade tab-introduccion">
+                                        <div class="row  equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">OBJETIVOS</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify">
+                                                        El objetivo de la presente página web es de ser una guía al usuario que desea realizar una Solicitud de Registro de Casilla Electrónica, así como la guía de acceso al sistema, cuando la solicitud fue aprobada.
+                                                    </p>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-step"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-step">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>
+                                    <div id="menu3" class="tab-pane fade tab-introduccion">
+                                        <div class="row  equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">DESCRIPCIÓN DEL MÓDULO U OPCIÓN</h3>
+                                                </div>
+                                                <div class="panel-body">                
+                                                    <div class="container-fluid">
+                                                        <h3 class="text-center">MÓDULO / OPCIÓN</h3>
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables bg-white">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Login</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Permite el acceso al sistema a los usuarios autorizados.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables bg-white">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Seguridad / Cambio de clave</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Desde esta opción se podrá cambiar la clave de usuario.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables bg-white">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Gestión de bandeja</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Proporciona los formularios de bandeja de casos recibidos, enviados y creados.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables bg-white">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Registro de denuncia</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">El modulo permite registrar y gestionar el proceso de denuncia, desde registrar una denuncia verbal hasta.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-</head>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-step"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-step">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>   
+                                    <div id="menu4" class="tab-pane fade tab-introduccion">
+                                        <div class="row  equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">DESCRIPCIÓN DE PERFILES</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="container-fluid">
+                                                        <h3 class="text-center">PERFILES</h3>
+                                                        <div class="row">
+                                                            <div class="col-md-3"></div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables bg-white">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Instructor</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Tiene acceso a las opciones de registrar y buscar denuncia.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="panel panel-color-tables bg-white">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="text-center">Comisario</h4>
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <p class="text-justify p-normal">Tiene acceso a las opciones de documentos de la denuncia y gestionar la bandeja.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>        
+                                                        </div>
+                                                    </div>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-step"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
 
-<body>
-   <h1>Ministerio Público</h1>
-    
-     <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.js"></script> 
-</body>
-  
-</html>    
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>	
+                    </div>
+                    <!--FIN: CONTENIDO PESTAÑA (Introducción)-->
+                </div>
+                <!--FIN: PESTAÑA (Introducción)-->
+                <!--INICIO: PESTAÑA (Manual)-->
+                <div class="tabby-tab">
+                    <input type="radio" id="tab-2" name="tabby-tabs">
+                    <label for="tab-2">Manual</label>
+                    <!--INICIO: CONTENIDO PESTAÑA (Manual)-->
+                    <div class="tabby-content">
+                        <div class="container col-md-12 tabs-responsive">
+                            <div class="row">
+                                <div class="process">
+                                    <div class="process-row nav nav-tabs">
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-info btn-circle" data-toggle="tab" href="#menu6"><i class="glyphicon glyphicon-inbox icon-size"></i></button>
+                                            <p><small>Bandeja</small></p>
+                                        </div>   
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu7"><i class="glyphicon glyphicon-registration-mark icon-size"></i></button>
+                                            <p><small>Registro de<br />Denuncia</small></p>
+                                        </div>    
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu8"><i class="glyphicon glyphicon-file icon-size"></i></button>
+                                            <p><small>Documentos<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu9"><i class="glyphicon glyphicon-lock icon-size"></i></button>
+                                            <p><small>Seguridad<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu10"><i class="glyphicon glyphicon-search icon-size"></i></button>
+                                            <p><small>Buscar N.U.C.<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu11"><i class="glyphicon glyphicon-file icon-size"></i></button>
+                                            <p><small>Declaración<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu12"><i class="glyphicon glyphicon-check icon-size"></i></button>
+                                            <p><small>Ficha de <br/>valoración<br/> de riesgo<br /></small></p>
+                                        </div>
+                                        <div class="process-step">
+                                            <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu13"><i class="glyphicon glyphicon-file icon-size"></i></button>
+                                            <p><small>Oficio a <br/>Medicina Legal<br /></small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-content">
+                                    <div id="menu6" class="tab-pane fade active in tab-manual">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Bandeja</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>Recibido: En esta parte se visualizan todas las denuncias con N.U.C. van a ser enviadas al Poder Judicial y ver los documentos generados.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image001.png">   
+                                                    </div>
+                                                    <p>Enviado: Al hacer clic en la pestaña enviado, en esta parte se visualizan todas las denuncias con N.U.C. son recibidas a la bandeja y ver los documentos generados.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image002.png">    
+                                                    </div>
+                                                    <p>Creado: Al hacer clic en la pestaña creado, en esta parte se visualizan todas las denuncias con N.U.C. son creadas a la bandeja y ver los documentos generados para enviar.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image003.png">   
+                                                    </div>
+                                                    
+                                                    <div class="clearfix"></div>
+
+                                                    <!-- The Modal -->                                             
+                                                </div>                
+                                            </div>                
+                                        </div>
+
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-info next-stepx">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>   
+                                    <div id="menu7" class="tab-pane fade active in tab-manual">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Denuncia</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>Para generar una nueva denuncia hacemos clic en el botón denuncia que está ubicado en la parte izquierda del formulario.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image004.png">   
+                                                    </div>
+                                                    <p>Nueva denuncia: En esta parte generamos la denuncia escribiendo la ciudad y seleccionando la instancia correspondiente, la fecha y la hora.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image005.png">    
+                                                    </div>
+                                                    <p>4.3.1.2.	Denunciante, víctima, denunciado, testigo: Los formularios: denunciante, víctima, denunciado y testigo comparten los mismos datos, la diferencia es que, en la pestaña denunciante, no se pueden añadir más denunciantes ya que es uno quien va a realizar el trámite de denuncia, pero si tiene la opción de ser marcada como víctima en caso que sea así.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image006.png">   
+                                                    </div>
+                                                    <p>En caso que seleccionemos la casilla “Es también victima?” haga clic en la pestaña víctima ya que automáticamente los datos de la “Victima 1” son los del denunciante.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image007.png">   
+                                                    </div>
+                                                    <p>Al hacer clic en la pestaña víctima, aparecerá el formulario para llenar todos los datos de la víctima.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image008.png">    
+                                                    </div>
+                                                    <p>Hechos: Para llenar los datos de los hechos, haga clic en la pestaña de Hechos y llene los datos de lo acontecido.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image009.png">    
+                                                    </div>
+                                                    
+
+                                                    <div class="clearfix"></div>
+
+                                                    <!-- The Modal -->                                             
+                                                </div>                
+                                            </div>                
+                                        </div>
+
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-stepx"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-stepx">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>   
+                                    <div id="menu8" class="tab-pane fade tab-manual">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Documentos</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>Documentos: En la pestaña de documentos se podrán ver los documentos generados que deben ser firmados para guardarlos en una carpeta.</p>
+                                                    <p>Para firmar un documento, haga clic en el icono correspondiente de la columna “Subir firma”.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image010.png">    
+                                                    </div>
+                                                    <p>Seleccionar archivo de firma correspondiente y aceptar. Una vez firmado, El icono ubicado en la columna correspondiente y el punto rojo que lo acompaña cambiarán de color de rojo a verde.</p>
+                                                    
+                                                    <p>Informe Policial
+                                                        En esta sección el COMISARIO, podrá redactar el informe policial, donde registra:
+                                                        -	Antecedentes que motivan la intervención policial.
+                                                        -	Investigaciones realizadas.
+                                                        -	Análisis de los hechos.
+                                                        -	Situación de las partes implicadas.
+                                                        -	Anexos.
+                                                        Seleccione el ICONO  en la columna LLENAR FORMULARIO.
+                                                    </p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image039.png">    
+                                                    </div>
+                                                    <p>El sistema muestra el formulario de INFORME POLICIAL.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image040.png">   
+                                                    </div>
+                                                    <p>Para visualizar el documento haga clic en el icono de PDF  en la columna.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image041.png">    
+                                                    </div>
+                                                    <p>El documento se visualizara, proceda a descárgalo y fírmalo con el software REFIRMA.</p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image043.png">    
+                                                    </div>
+                                                    <div class="clearfix"></div>
+
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-stepx"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-stepx">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>   
+                                    <div id="menu9" class="tab-pane fade tab-manual">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Seguridad</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h3 class="text-center">Cambio de Clave</h3>
+                                                    <p>Esta opción permite cambiar la clave de cualquier usuario del sistema. 
+                                                        Para acceder seleccione el icono  , CAMBIO DE PASSWORD, se visualizara la ventana         de CAMBIO DE CLAVE.
+                                                    </p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image079.png">   
+                                                    </div>
+                                                    <p>Una vez ingresado los datos y aceptar los cambios el sistema mostrara un mensaje de confirmación.
+                                                    </p>        
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/pnp/image080.png">    
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-stepx"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-stepx">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>
+                                    <div id="menu10" class="tab-pane fade tab-manual">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Buscar N.U.C.</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h3 class="text-center">Buscar N.U.C.</h3>
+                                                    <p>Para buscar un caso y ver la trazabilidad, haga clic en la pestaña “Buscar N U C”.
+                                                    </p>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image011.png">   
+                                                    </div>
+                                                    <p>Seleccionar el periodo, estado y el número único de caso o también por algún nombre de las partes involucradas.
+                                                    </p>        
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image012.png">    
+                                                    </div>
+                                                    <p>En la parte inferior, verá una tabla con el número de caso, denunciante, la fecha, el documento de la denuncia y la trazabilidad. En esta tabla, se mostrarán por defecto todos los casos y también los resultados de la búsqueda por N.U.C. o por nombres.</p>        
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image013.png">    
+                                                    </div>
+                                                    <p>Una vez hecho clic en el número de caso, se mostrarán todas las pestañas que se aprecian en denuncia, pero estas no se pueden editar.</p>
+                                                    <div class="clearfix"></div>
+                                                    <div class="img" data-toggle="modal" data-target="#ordine">
+                                                        <img class="img-responsive" src="../imagenes/fiscalia/image014.png">    
+                                                    </div>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-stepx"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-stepx">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>
+                                    <div id="menu11" class="tab-pane fade tab-manual">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Declaración</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h3 class="text-center">Declaración</h3>
+                                                        <p>Para llenar los datos de declaración del denunciante, la víctima, denunciado y testigo, ir a la pestaña documentos.</p>
+                                                        <div class="img" data-toggle="modal" data-target="#ordine">
+                                                            <img class="img-responsive" src="../imagenes/fiscalia/image015.png">   
+                                                        </div>
+                                                        <p>Hacer clic en el icono de “Llenar formulario”   correspondiente al denunciante y/o víctima, denunciado.</p>     <div class="img" data-toggle="modal" data-target="#ordine">
+                                                            <img class="img-responsive" src="../imagenes/fiscalia/image017.png">    
+                                                        </div>
+                                                        <div class="img" data-toggle="modal" data-target="#ordine">
+                                                            <img class="img-responsive" src="../imagenes/fiscalia/image018.png">    
+                                                        </div>
+                                                        <p>Una vez culminadas las preguntas, hacer clic en guardar.</p>        
+                                                        
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-stepx"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-stepx">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>
+                                    <div id="menu12" class="tab-pane fade tab-manual">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Ficha de valoración <br/>de riesgo</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    
+                                                        <p>Para llenar los datos de la ficha de valoración de riesgo, hacer clic en el icono de “Llenar formulario”   correspondiente al denunciante y/o víctima, denunciado.</p> 
+                                                        <div class="img" data-toggle="modal" data-target="#ordine">
+                                                            <img class="img-responsive" src="../imagenes/fiscalia/image019.png">   
+                                                        </div>
+                                                        <p>Completa los datos de la ficha de valoración y hacer clic en el botón “Guardar”.</p>     
+                                                        <div class="img" data-toggle="modal" data-target="#ordine">
+                                                            <img class="img-responsive" src="../imagenes/fiscalia/image020.png">    
+                                                        </div>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-stepx"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                            <li><button type="button" class="btn btn-info next-stepx">Siguiente <i class="glyphicon glyphicon-chevron-right"></i></button></li>
+                                        </ul>
+                                    </div>
+                                    <div id="menu13" class="tab-pane fade tab-manual">
+                                        <div class="row equal-panels">		
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h3 class="text-center">Oficio a Medicina Legal<br/>solicitando reconocimiento médico</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    
+                                                        <p>Para llenar los datos de la ficha de valoración de riesgo, hacer clic en el icono de “Llenar formulario”   correspondiente al denunciante y/o víctima, denunciado.</p> 
+                                                        <div class="img" data-toggle="modal" data-target="#ordine">
+                                                            <img class="img-responsive" src="../imagenes/fiscalia/image021.png">   
+                                                        </div>
+                                                        <p>Escribir el número de documento, editar lo necesario y guardar.</p>     
+                                                        <div class="img" data-toggle="modal" data-target="#ordine">
+                                                            <img class="img-responsive" src="../imagenes/fiscalia/image022.png">    
+                                                        </div>
+                                                </div>                
+                                            </div>                
+                                        </div>
+                                        <ul class="list-unstyled list-inline center">
+                                            <li><button type="button" class="btn btn-default prev-stepx"><i class="glyphicon glyphicon-chevron-left"></i> Atras</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>	
+                    </div>
+                    <!--FIN: CONTENIDO PESTAÑA (Manual)-->
+                </div>
+                <!--FIN: PESTAÑA (manual)-->
+                <!--INICIO: PESTAÑA (Glosario)-->
+                <div class="tabby-tab">
+                    <input type="radio" id="tab-3" name="tabby-tabs">
+                    <label for="tab-3">Glosario</label>
+                    <!--INICIO: CONTENIDO PESTAÑA (Glosario)-->
+                    <div class="tabby-content">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="text-center">Glosario</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="container-fluid">
+                                    <h3 class="text-center">TÉRMINOS</h3>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-4">
+                                            <div class="panel panel-color-tables bg-white">
+                                                <div class="panel-heading">
+                                                    <h4 class="text-center">URL</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify p-normal">Uniform Resource Locator. El URL es la cadena de caracteres con la cual se asigna una dirección única a cada uno de los recursos de información disponibles en el internet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="panel panel-color-tables bg-white">
+                                                <div class="panel-heading">
+                                                    <h4 class="text-center">Hipervínculo</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify p-normal">Objeto en una pantalla que actúa como enlace hacia otra pantalla.</p>
+                                                </div>
+                                            </div>
+                                        </div>        
+
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>             	  
+
+                    </div>
+                    <!--FIN: CONTENIDO PESTAÑA (Glosario)-->
+                </div>
+                <!--FIN: PESTAÑA (Glosario)-->
+                <!--INICIO: PESTAÑA (Preguntas frecuentes)-->
+                <div class="tabby-tab">
+                    <input type="radio" id="tab-4" name="tabby-tabs">
+                    <label for="tab-4">Preguntas Frecuentes</label>
+                    <!--INICIO: CONTENIDO PESTAÑA (Preguntas frecuentes)-->
+                    <div class="tabby-content">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="text-center">Preguntas Frecuentes</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="container-fluid">
+                                    <h3 class="text-center">PREGUNTAS</h3>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-4">
+                                            <div class="panel panel-color-tables bg-white">
+                                                <div class="panel-heading">
+                                                    <h4 class="text-center">¿En qué formatos puede exportar el reporte?</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify p-normal">El formato de visualización de constancias es PDF. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="panel panel-color-tables bg-white">
+                                                <div class="panel-heading">
+                                                    <h4 class="text-center">¿Puede utilizar cualquier navegador web para acceder al aplicativo?</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p class="text-justify p-normal">Si puede utilizar cualquier navegador, sin embargo puede darse el caso en que la presentación de la página no se vea correctamente, es por ello que se recomienda el uso de Internet Explorer 8 o superior y/o Google Chrome y/o Mozilla Firefox. </p>
+                                                </div>
+                                            </div>
+                                        </div>        
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>             
+                    </div>
+                    <!--FIN: CONTENIDO PESTAÑA (Preguntas frecuentes)-->
+                </div>
+                <!--FIN: PESTAÑA (Preguntas frecuentes)-->
+            </div>
+            <!--FIN: PESTAÑAS(Introducción-Manual-Glosario-Preguntas frecuentes)-->
+        </div>
+        <!--FIN: CONTENIDO PRINCIPAL-->          
+        <!--INICIO: VENTANA MODAL DE IMAGENES-->
+        <div class="modal fade" id="ordine" role="dialog">
+            <div id="myModal" class="modalx">
+                <span class="close" data-dismiss="modal">Cerrar <i class="glyphicon glyphicon-remove-sign"></i></span>            
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div>
+        <!--FIN: VENTANA MODAL DE IMAGENES-->
+
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.js"></script> 
+        <script src="../js/tabs.js"></script>
+        <script src="../js/tabsx.js"></script>
+        <script src="../js/img.js"></script>
+    </body>
+
+</html>   
