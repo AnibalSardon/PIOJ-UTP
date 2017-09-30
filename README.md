@@ -12,10 +12,15 @@ Interface login : simple login validador con ajax sin bd(solo para muestra)
 Desarrollado :
 
 Pantalla de Inicio-Login
+
 Módulo Poder Judicial (falta imagenes)
+
 Módulo Ministerio Público (completo)
+
 Módulo Comisaria (50%)
+
 Módulo CEM (falta pull,push al repositorio)
+
 Módulo Medicinal legal(falta pull,push al repositorio)
 
 PD: 
